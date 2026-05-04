@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>Label</key>
+    <string>com.tgmcoin.admin_ui</string>
+
+    <key>ProgramArguments</key>
+    <array>
+      <string>/bin/bash</string>
+      <string>/Users/admin/Library/Application Support/TGMcoin/run_admin_ui.sh</string>
+    </array>
+
+    <key>RunAtLoad</key>
+    <true/>
+    <key>KeepAlive</key>
+    <true/>
+
+    <key>WorkingDirectory</key>
+    <string>/Users/admin/Projects/tgmcoin</string>
+
+    <key>StandardOutPath</key>
+    <string>/Users/admin/Projects/tgmcoin/logs/launchd.admin_ui.stdout.log</string>
+    <key>StandardErrorPath</key>
+    <string>/Users/admin/Projects/tgmcoin/logs/launchd.admin_ui.stderr.log</string>
+  </dict>
+</plist>

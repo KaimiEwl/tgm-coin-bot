@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="750" viewBox="0 0 1200 750" role="img" aria-label="Telegram bot economy preview">
+  <rect width="1200" height="750" fill="#eff6ff"/>
+  <circle cx="360" cy="375" r="205" fill="#38bdf8"/>
+  <path d="M246 360l310-132c28-12 52 9 43 39l-78 260c-8 28-38 35-58 14l-88-92-72 70c-20 19-48 5-48-23v-84l214-145-223 93z" fill="#ffffff"/>
+  <rect x="650" y="190" width="350" height="88" rx="24" fill="#ffffff"/>
+  <rect x="650" y="326" width="350" height="88" rx="24" fill="#ffffff"/>
+  <rect x="650" y="462" width="350" height="88" rx="24" fill="#ffffff"/>
+  <circle cx="705" cy="234" r="22" fill="#facc15"/>
+  <circle cx="705" cy="370" r="22" fill="#facc15"/>
+  <circle cx="705" cy="506" r="22" fill="#facc15"/>
+</svg>
+
