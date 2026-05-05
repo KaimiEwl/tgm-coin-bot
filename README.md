@@ -1,39 +1,34 @@
 # TGM Coin Bot
 
-![Project preview](docs/screenshots/preview.png)
+![Project preview](docs/screenshots/preview.svg)
 
-A Telegram economy bot that rewards chat activity, supports referrals, tracks balances and exposes admin controls.
+A Telegram bot for community rewards, referrals, balances and admin controls.
 
-## Demo
+## What It Does
+
+The bot rewards useful chat activity, tracks coins and referrals, and gives admins a simple way to manage community mechanics without editing the database by hand.
+
+## Public Links
 
 - GitHub: https://github.com/KaimiEwl/tgm-coin-bot
-- Live demo: not applicable for this project type
-- Video: planned
-- Case notes: see `docs/architecture.md`
-
-## What it shows
-
-This project shows bot mechanics, anti-spam logic, SQLite persistence, admin tooling and product roadmap thinking.
+- Portfolio card: https://kaimiewl.github.io/#work
+- Architecture notes: `docs/architecture.md`
 
 ## Features
 
 - Random coin rewards with cooldowns
-- Super-prize and referral mechanics
-- Owner tribute and anti-abuse state
-- Admin UI for users/chats/broadcasts
-- Mini-app and monetization roadmap docs
+- Referral and super-prize mechanics
+- Anti-abuse state and owner controls
+- Admin UI for users, chats and broadcasts
+- Roadmap notes for mini-app and monetization experiments
 
-## Tech stack
+## Stack
 
-- Python
-- python-telegram-bot
-- Flask
-- SQLite
-- Pillow
+Python, python-telegram-bot, Flask, SQLite, Pillow.
 
-## Local setup
+## Run Locally
 
-```
+```bash
 python -m venv .venv
 . .venv/Scripts/activate
 pip install -r requirements.txt
@@ -41,16 +36,12 @@ copy .env.example .env
 python bot.py
 ```
 
-## Verification
+## Check
 
-```
+```bash
 python -m py_compile bot.py admin_ui.py storage.py
 ```
 
 ## Status
 
-Demo export. Bot tokens, local database and logs are excluded.
-
-## Security and cleanup
-
-This public repository is a clean portfolio export. It intentionally excludes production secrets, local databases, logs, generated media, backups, runtime folders and private deployment artifacts.
+Demo export. Bot tokens, local database, private logs and runtime files are excluded.

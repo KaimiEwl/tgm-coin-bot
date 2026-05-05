@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 810" role="img" aria-labelledby="title desc">
+  <title id="title">TGM Coin Telegram bot preview</title>
+  <desc id="desc">A Telegram bot preview showing rewards, referrals, admin controls and anti-spam rules.</desc>
+  <rect width="1440" height="810" fill="#edf6ff"/>
+  <rect x="132" y="86" width="1176" height="638" rx="30" fill="#ffffff"/>
+  <text x="208" y="164" fill="#172033" font-family="Inter, Arial, sans-serif" font-size="42" font-weight="900">TGM Coin Bot</text>
+  <text x="208" y="204" fill="#64748b" font-family="Inter, Arial, sans-serif" font-size="22">Telegram rewards, referrals and admin tools for community growth.</text>
+
+  <g transform="translate(208 270)">
+    <rect width="440" height="330" rx="24" fill="#229ed9"/>
+    <rect x="38" y="42" width="304" height="58" rx="18" fill="#ffffff"/>
+    <text x="64" y="78" fill="#172033" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="800">You earned +25 TGM</text>
+    <rect x="98" y="126" width="304" height="58" rx="18" fill="#dff4ff"/>
+    <text x="124" y="162" fill="#075985" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="800">Invite bonus unlocked</text>
+    <rect x="38" y="210" width="304" height="58" rx="18" fill="#ffffff"/>
+    <text x="64" y="246" fill="#172033" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="800">Daily reward ready</text>
+  </g>
+
+  <g transform="translate(720 284)">
+    <rect width="420" height="82" rx="18" fill="#f8fafc" stroke="#dbe2ea"/>
+    <rect y="112" width="420" height="82" rx="18" fill="#f8fafc" stroke="#dbe2ea"/>
+    <rect y="224" width="420" height="82" rx="18" fill="#f8fafc" stroke="#dbe2ea"/>
+    <text x="32" y="50" fill="#172033" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="900">Rewards engine</text>
+    <text x="32" y="162" fill="#172033" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="900">Referral logic</text>
+    <text x="32" y="274" fill="#172033" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="900">Admin controls</text>
+  </g>
+</svg>
